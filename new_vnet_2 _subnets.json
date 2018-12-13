@@ -11,14 +11,14 @@
     },
     "vnetAddressPrefix": {
       "type": "string",
-      "defaultValue": "10.0.0.0/16",
+      "defaultValue": "10.20.0.0/16",
       "metadata": {
         "description": "Address prefix"
       }
     },
     "subnet1Prefix": {
       "type": "string",
-      "defaultValue": "10.0.0.0/24",
+      "defaultValue": "10.20.1.0/16",
       "metadata": {
         "description": "Subnet 1 Prefix"
       }
@@ -32,7 +32,7 @@
     },
     "subnet2Prefix": {
       "type": "string",
-      "defaultValue": "10.0.1.0/24",
+      "defaultValue": "10.20.30.0/16",
       "metadata": {
         "description": "Subnet 2 Prefix"
       }
